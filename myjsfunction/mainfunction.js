@@ -12,6 +12,13 @@ function palindroma(parola){
 
 }
 
+// Verifichiamo se la parola inserita è palindroma con una condizione
+if (palindroma(InputUtente)) {
+    alert("La parola inserita è palindroma.");
+  } else {
+    alert("La parola inserita non è palindroma.");
+  }
+
     // 1 Applichiamo il metodo split a parola per dividere la parola inserita dall utente in un array di singoli elementi contenenti ogni carattere singolo di cui e composta la parola
     
      // DIVIDIAMO la parola
